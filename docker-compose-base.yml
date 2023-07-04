@@ -19,6 +19,7 @@ services:
     container_name: postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql
     environment:
       - POSTGRES_PASSWORD=password
       - POSTGRES_USER=postgres

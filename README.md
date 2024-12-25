@@ -1,25 +1,12 @@
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-  </ol>
-</details>
+# Cloud Computing y migración de una aplicación de riego a AWS
 
+## Despliegue mediante Docker-Compose.
 
+Este proyecto dió solución a un caso de migración de una aplicación web inicial basada en microservicios y desplegada en un entorno local, hacia una infraestructura en la nube construida mediante los servicios de Amazon Web Service (AWS). El proceso de desarrollo seguido se estructuró en tres fases: refactorización de la aplicación para su funcionamiento a través de contenedores Docker tanto de forma local (Docker-Compose) como en la nube, migración de la aplicación refactorizada hacia una infraestructura de AWS y finalmente automatizar el proceso de despliegue de la infraestructura a través de ficheros Terraform.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+Documentación: 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+<div>
+<a href="https://github.com/jbarcua/jesusbctfg/blob/master/Doc_TFG_Jesus_Barquero_Cuadrado.pdf"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/267px-PDF_file_icon.svg.png" alt="PDF_file_icon" width="40" height="50"></a>
+</div>
 
